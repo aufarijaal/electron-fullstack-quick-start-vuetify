@@ -70,6 +70,14 @@ npm run build
 
 ## OTHER UI OPTIONS
 
+## ARCHITECTURE
+
+<img src="public/architecture.png" width="650"/>
+
+- for other `repository`, you can place in `repositories/` folder, then register it in the `repositories/index.ts`
+- for other `ipc handlers`, you can place in `ipc/` folder, then register it in the `ipc/index.ts`
+- for other `ipc invokers`, you can place in `preload/_ipc_invokers_name` folder, then register it in the `preload/index.ts`
+
 There are some other ui library options for this template. Check below.
 
 - [Electron Fullstack Quick Start (Element Plus)](https://github.com/aufarijaal/electron-fullstack-quick-start)
