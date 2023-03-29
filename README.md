@@ -72,7 +72,7 @@ npm run build
 
 ## ARCHITECTURE
 
-<img src="public/architecture.png" width="650"/>
+<img src="public/architecture.png" width="800" height="auto"/>
 
 - for other `repository`, you can place in `repositories/` folder, then register it in the `repositories/index.ts`
 - for other `ipc handlers`, you can place in `ipc/` folder, then register it in the `ipc/index.ts`
